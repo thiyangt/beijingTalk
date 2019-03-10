@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  10 MAR 2019 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  10 MAR 2019 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,6 +1431,32 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 
 ] [4
 
+] [5
+
+] [6
+
+]
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 15.0pt on input line 153.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <15> not available
+
+(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
+ 153.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
+(Font)              scaled to size 15.0pt on input line 153.
+[7
+
+] [8
+
+] [9
+
+]
+Underfull \hbox (badness 2698) in paragraph at lines 165--165
+ [][]\T1/Carlito-TLF/b/n/17.28 Feature-based FORe-cast Model Per-for-mance 
+ []
+
+[10
+
 ]
 \tf@nav=\write6
 \openout6 = `beijingtalk.nav'.
@@ -1441,30 +1467,30 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 \tf@snm=\write8
 \openout8 = `beijingtalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 (./beijingtalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `beijingtalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25683 strings out of 494562
- 495210 string characters out of 6175863
+ 25713 strings out of 494562
+ 495560 string characters out of 6175863
  561830 words of memory out of 5000000
- 28812 multiletter control sequences out of 15000+600000
- 64844 words of font info for 35 fonts, out of 8000000 for 9000
+ 28829 multiletter control sequences out of 15000+600000
+ 79423 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,14n,92p,1838b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/carlito
 /crlt_z7vml3.enc}<c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-dist/fonts/ty
 pe1/typoland/carlito/Carlito-Bold.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb>
-Output written on beijingtalk.pdf (4 pages, 165220 bytes).
+Output written on beijingtalk.pdf (10 pages, 171239 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  6192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,5 +15,18 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE, de
 
 ## Introduction
 
-## 
+## Time Series Features
+
+## Meta-learning
+
+## Feature-based forecasting algorithms
+
+## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
+
+## Peeking inside FFORMS
+
+## Feature-based FORecast Model Averaging
+
+## Feature-based FORecast Model Performance Prediction
+
 

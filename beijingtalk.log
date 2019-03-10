@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  10 MAR 2019 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  10 MAR 2019 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,6 +1457,10 @@ Underfull \hbox (badness 2698) in paragraph at lines 165--165
 
 [10
 
+] [11
+
+] [12
+
 ]
 \tf@nav=\write6
 \openout6 = `beijingtalk.nav'.
@@ -1467,19 +1471,19 @@ Underfull \hbox (badness 2698) in paragraph at lines 165--165
 \tf@snm=\write8
 \openout8 = `beijingtalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
 (./beijingtalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `beijingtalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25713 strings out of 494562
- 495560 string characters out of 6175863
+ 25721 strings out of 494562
+ 495630 string characters out of 6175863
  561830 words of memory out of 5000000
- 28829 multiletter control sequences out of 15000+600000
+ 28833 multiletter control sequences out of 15000+600000
  79423 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,14n,92p,1838b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1487,10 +1491,10 @@ Here is how much of TeX's memory you used:
 /crlt_z7vml3.enc}<c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-dist/fonts/ty
 pe1/typoland/carlito/Carlito-Bold.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb>
-Output written on beijingtalk.pdf (10 pages, 171239 bytes).
+Output written on beijingtalk.pdf (12 pages, 172539 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
  6192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

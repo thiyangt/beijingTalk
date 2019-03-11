@@ -28,6 +28,8 @@ options(digits = 3, width = 63)
 
 ## Introduction
 
+  \centerline{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{figures/mobile.jpg}}
+
 ## Big picture of the problem
 
 ## Time series features
@@ -378,11 +380,64 @@ weights.
 
 \centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformpp.png}}
 
-## Peeking inside FFORMS
+## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
 
-## Feature-based FORecast Model Averaging
+- We use Efficient Bayesian Multivariate Surface Regression
+\pause
+- **Y:** forecast error of each method, we take the correlation structure between the errors into account.
+\pause
+- Why Efficient Bayesian Multivariate Surface Regression?
+     - handles interactions and nonlinear relationships between features
+     - allows the knot locations to move freely in the feature space, thus a less number of knots are usually used
+     
+## Application to M4 Competition 
 
-## Feature-based FORecast Model Performance Prediction
+- Composition of the time series in the reference set and collection of new time series
+
+\begin{table}[!h]
+\centering
+\label{observedsample}
+\begin{tabular}{l|rrr|r}
+\multirow{2}{*}{Frequency} & \multicolumn{3}{c|}{Reference set} &  New series \\ 
+                  &   M1    &    M3   &   Simulated   &  M4 \\ \hline
+  Yearly          &   181    &   645    &   10000   & 23000 \\
+  Quarterly       &   203    &    756   &   10000   &  24000\\
+  Monthly         &   617    &    1428   &  10000    &  48000\\
+  Weekly          &   -    &   -    &  10000   & 359 \\
+  Daily           &   -    &   -    &  10000   & 4227 \\
+  Hourly          &   -    &    -   &  10000    & 414\\ \hline
+\end{tabular}
+\end{table}
+
+## Application to M4 Competition 
+
+- Composition of the time series in the reference set and collection of new time series
+
+\begin{table}[!h]
+\centering
+\label{observedsample}
+\begin{tabular}{l|rrr|r}
+\multirow{2}{*}{Frequency} & \multicolumn{3}{c|}{Reference set} &  New series \\ 
+                  &   M1    &    M3   &   \colorbox{orange}{Simulated}   &  M4 \\ \hline
+  Yearly          &   181    &   645    &   10000   & 23000 \\
+  Quarterly       &   203    &    756   &   10000   &  24000\\
+  Monthly         &   617    &    1428   &  10000    &  48000\\
+  Weekly          &   -    &   -    &  10000   & 359 \\
+  Daily           &   -    &   -    &  10000   & 4227 \\
+  Hourly          &   -    &    -   &  10000    & 414\\ \hline
+\end{tabular}
+\end{table}
+
+## Simulated data
+
+- Augmenting the observed sample with simulated time series from mixture
+autoregressive(MAR) models
+
+- Proposed by Kang, Hyndman and Li (2018), Efficient generation of time series with diverse and controllable chaacteristics
+
+- R package: https://github.com/ykang/tsgeneration
+
+## Results
 
 ## R packages
 

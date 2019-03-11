@@ -16,3 +16,9 @@ stringr
 forcats
 magrittr
 ggpubr
+knitr
+patchwork
+RColorBrewer
+ggcorrplot
+M4comp2018
+GGally

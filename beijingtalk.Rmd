@@ -370,6 +370,8 @@ weekly, daily, hourly
 
 \centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fforma.png}}
 
+- optimization criterion: forecast accuracy
+
 ## FFORMA: Models included
 
 - naive 
@@ -477,9 +479,29 @@ autoregressive(MAR) models
 
 - black: observed, green-simulated, orange-M4
 
-## Results
+## Results: FFORMPP
 
-- 
+\begin{table}[!h]
+\centering\footnotesize\tabcolsep=0.12cm
+\begin{tabular}{l|llllll}
+ & Yearly & Quarterly & Monthly & Weekly & Daily & Hourly \\\hline
+\bf{FFORMPP-combination*} &  &  &  &  &  &  \\
+\bf{FFORMPP-individual} &  &  &  &  &  &  \\
+auto.arima &  &  &  &  &  &  \\
+ets &  &  &  &  &  &  \\
+theta &  &  &  &  &  &  \\
+rwd &  &  &  &  &  &  \\
+rw &  &  &  &  &  &  \\
+stlar &  &  &  &  &  &  \\
+wn &  &  &  &  &  &  \\
+combination (median) &  &  &  &  &  & \\
+combination (mean) &  &  &  &  &  & \\\hline
+\end{tabular}
+\end{table}
+
+\fontsize{12}{12}\sffamily FFORMPP-combination*: based on median forecasts of the four algorithms with minimum predicted MASE
+
+## Results: FFORMS, FFORMA, FFORMPP
 
 ## R packages
 

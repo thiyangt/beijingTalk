@@ -139,6 +139,65 @@ ggplot(df, aes(x = trend, y = seasonality)) +
 
 ## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
 
+ \centerline{\includegraphics[width=\paperwidth]{figures/fw1.png}}
+
+## FFORMS: observed sample
+
+ \centerline{\includegraphics[width=\paperwidth]{figures/fw2.png}}
+ 
+## FFORMS: simulated time series
+
+ \centerline{\includegraphics[width=\paperwidth]{figures/fw3.png}}
+ 
+## FFORMS: reference set
+ 
+ \centerline{\includegraphics[width=\paperwidth]{figures/fw4.png}}
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw5.png}}
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw6.png}}
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw7.png}}
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw8.png}}
+
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw9.png}}
+
+## FFORMS: Meta-data
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw10.png}}
+
+## FFORMS: Random-forest classifier
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw11.png}}
+
+
+## FFORMS: "online" part of the algorithm
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw12.png}}
+
+
+## FFORMS: "online" part of the algorithm
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw13.png}}
+
+## FFORMS: "online" part of the algorithm
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fw14.png}}
+
+
+
 ## Peeking inside FFORMS
 
 ## Feature-based FORecast Model Averaging

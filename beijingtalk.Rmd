@@ -199,7 +199,13 @@ ggplot(df, aes(x = trend, y = seasonality)) +
 
 \centerline{\includegraphics[width=\paperwidth]{figures/fw14.png}}
 
+## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
 
+\centerline{\includegraphics[width=\paperwidth]{figures/fformstofforma.png}}
+
+## \fontsize{15}{15}\bf\sffamily FFORMA: Feature-based FORecast Model Averaging
+
+\centerline{\includegraphics[width=\paperwidth]{figures/fforma.png}}
 
 ## Peeking inside FFORMS
 

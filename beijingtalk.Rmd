@@ -199,13 +199,184 @@ ggplot(df, aes(x = trend, y = seasonality)) +
 
 \centerline{\includegraphics[width=\paperwidth]{figures/fw14.png}}
 
+## Application to M competition data
+
+- Proposed algorithm is applied to yearly, quarterly and monthly series separately.
+
+- We run two experiments for each case.
+
+\begin{table}[!htp]
+\centering\tiny\tabcolsep=0.2cm
+\def\yes{$\checkmark$}
+\captionsetup{labelformat=empty}
+\label{tbl:Mcomps}
+\begin{tabular}{lrrrrr@{\hspace*{0.2cm}}rrrr}
+\toprule
+                &  \multicolumn{ 4}{c}{Experiment 1} & & \multicolumn{ 4}{c}{Experiment 2} \\
+                &    Source  &    Y  & Q  &    M &            &    Source  &    Y  & Q  &    M \\\cline{2-5}\cline{7-10}
+& & & & & & & & & \\[-0.1cm]
+\colorbox{black}{\color{white}{Observed series}} &         M1 &       181 &        203 &        617 &            &         M3 &        645 &        756 &       1428 \\
+\colorbox{ao(english)}{Simulated series} &          &       362000 &        406000 &        123400 &            &          &        1290000 &        1512000&       285600 \\
+\colorbox{orange}{New series} &         M3 &    645 &       756 &       1428 &            &         M1 &        181 &        203 &       617 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+## \fontsize{12}{12}\bf\sffamily Experiment 1: Distribution of time series in the PCA space
+
+\colorbox{black}{\color{white}{observed - M1}} 
+
+  \centerline{\includegraphics[width=\textwidth,height=7.5cm,keepaspectratio]{figures/observed.pdf}}
+
+## \fontsize{12}{12}\bf\sffamily Experiment 1: Distribution of time series in the PCA space
+
+\colorbox{black}{\color{white}{observed - M1}}\colorbox{ao(english)}{simulated}
+
+  \centerline{\includegraphics[width=\textwidth,height=7.5cm,keepaspectratio]{figures/simulated.pdf}}
+
+
+
+## \fontsize{12}{12}\bf\sffamily Experiment 1: Distribution of time series in the PCA space
+
+\colorbox{black}{\color{white}{observed - M1}}\colorbox{ao(english)}{simulated}\colorbox{orange}{new - M3}
+  \centerline{\includegraphics[width=\textwidth,height=7.5cm,keepaspectratio]{figures/exp1pca-1.pdf}}
+
+
+
+
+## \fontsize{12}{12}\bf\sffamily Experiment 2: Distribution of time series in the PCA space
+
+\colorbox{black}{\color{white}{observed - M3}} \colorbox{ao(english)}{simulated} \colorbox{aureolin}{subset} \colorbox{orange}{new - M1}
+  \centerline{\includegraphics[width=\textwidth,height=7.5cm,keepaspectratio]{figures/exp2pca-1.pdf}}
+
+## Results: Yearly
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+method = c("RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "Theta",
+           "RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "Theta")
+Rank = c(1.50, 1.50, 3.33, 5.00, 8.00, 7.00, 3.67, 6.00,
+         3.50, 2.50, 5.83, 4.67, 9.00, 8.00, 1.00, 3.50)
+class=c(0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1)
+df <- data.frame(method=method, Rank=Rank, class=class)
+ggplot(data=df, aes(x=method,y=Rank,fill=factor(class))) +
+  geom_bar(position="dodge",stat="identity") + 
+  coord_flip() +
+   scale_x_discrete(
+    limits=c("WN", "RW", "auto.arima", "ets", "Theta", "RWD", "RF-class priors", "RF-unbalanced"),
+    labels=c("WN", "RW", "auto.arima", "ets", "Theta", "RWD", "RF-class priors", "RF-unbalanced")
+    ) + scale_fill_brewer(breaks=c(1,0), 
+    labels=c("Experiment 1 (new: M3)","Experiment 2 (new: M1)")
+, palette = "Set1") + 
+  theme(axis.title.y=element_blank(), legend.title=element_blank(),
+            text = element_text(size=20))
+```
+
+## Results: Quarterly
+
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+method = c("RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "STL-AR", "Theta", "Snaive",
+           "RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "STL-AR", "Theta", "Snaive")
+Rank = c(1.00, 2.63, 5.25, 3.00, 10.00, 7.50, 5.38, 8.63, 3.88, 7.75, 2.25,
+3.13, 4.75, 3.75, 10.00, 7.00, 6.50, 8.34, 2.50, 6.75)
+class=c(0,0,0,0,0,0,0,0,0, 0, 1,1,1,1,1,1,1,1, 1, 1)
+df <- data.frame(method=method, Rank=Rank, class=class)
+ggplot(data=df, aes(x=method,y=Rank,fill=factor(class))) +
+  geom_bar(position="dodge",stat="identity") + 
+  coord_flip() +
+   scale_x_discrete(
+    limits=c("WN","RW",  "RWD","STL-AR", "Snaive", "auto.arima", "ets","Theta", "RF-class priors", "RF-unbalanced"),
+    labels=c("WN",  "RW", "RWD","STL-AR", "Snaive", "auto.arima", "ets","Theta", "RF-class priors", "RF-unbalanced")
+    ) + scale_fill_brewer(breaks=c(1,0), 
+    labels=c("Experiment 1 (new: M3)","Experiment 2 (new: M1)")
+, palette = "Set1") + 
+  theme(axis.title.y=element_blank(), legend.title=element_blank(),
+        text = element_text(size=20))
+```
+
+## Results: Monthly
+
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+method = c("RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "STL-AR", "Theta", "Snaive",
+           "RF-unbalanced", "RF-class priors", "auto.arima", "ets", "WN", "RW", "RWD", "STL-AR", "Theta", "Snaive")
+Rank = c(1.77, 2.83, 4.94, 3.44, 10.00, 7.25, 8.61, 7.38, 2.27, 6.47, 3.22, 2.00, 2.83, 2.72, 10.00, 8.03, 6.89, 7.89, 4.22, 7.19)
+class=c(0,0,0,0,0,0,0,0,0, 0, 1,1,1,1,1,1,1,1, 1, 1)
+df <- data.frame(method=method, Rank=Rank, class=class)
+ggplot(data=df, aes(x=method,y=Rank,fill=factor(class))) +
+  geom_bar(position="dodge",stat="identity") + 
+  coord_flip() +
+   scale_x_discrete(
+    limits=c("WN","RW", "RWD","STL-AR",  "Snaive", "auto.arima", "ets","Theta", "RF-class priors", "RF-unbalanced"),
+    labels=c("WN","RW", "RWD", "STL-AR",  "Snaive", "auto.arima", "ets","Theta", "RF-class priors", "RF-unbalanced")
+    ) + scale_fill_brewer(breaks=c(1,0), 
+    labels=c("Experiment 1 (new: M3)","Experiment 2 (new: M1)")
+, palette = "Set1") + 
+  theme(axis.title.y=element_blank(), legend.title=element_blank(),
+        text = element_text(size=20))
+```
+
+## M4 Competition: 2018
+
+\centerline{\includegraphics[width=\paperwidth, height=6.5cm]{figures/m4.png}}
+
+- 100,000 time series: yearly, quarterly, monthly,
+weekly, daily, hourly
+
 ## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
 
-\centerline{\includegraphics[width=\paperwidth]{figures/fformstofforma.png}}
+\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fforms.png}}
+
+## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
+
+\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformstofforma.png}}
+
+- optimization criterion: classification accuracy
 
 ## \fontsize{15}{15}\bf\sffamily FFORMA: Feature-based FORecast Model Averaging
 
-\centerline{\includegraphics[width=\paperwidth]{figures/fforma.png}}
+\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fforma.png}}
+
+## FFORMA: Models included
+
+- naive 
+- random walk with drift 
+- seasonal naive 
+- theta method 
+- automated ARIMA algorithm 
+- automated exponential smoothing algorithm 
+- TBATS model 
+- STLM-AR Seasonal and Trend decomposition using Loess with AR modeling of the seasonally adjusted series 
+- neural network time series forecasts 
+
+
+## \fontsize{15}{15}\bf\sffamily FFORMA: Feature-based FORecast Model Averaging
+
+\begin{itemize}[<+->]
+
+\vfill\item Like FFORMS but we use xgboost rather than a
+random forest.
+
+\vfill\item Optimization criterion: forecast accuracy
+
+\vfill\item The probability of each model being best is used
+to construct a model weight.
+
+\vfill\item A combination forecast is produced using these
+weights.
+
+\vfill\item 248 registrations, 50 submissions
+
+\vfill\item Came second in the M4 competition
+
+\end{itemize}
+
+## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
+
+\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformpp.png}}
 
 ## Peeking inside FFORMS
 

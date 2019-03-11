@@ -122,16 +122,20 @@ ggplot(df, aes(x = trend, y = seasonality)) +
 
 ## Meta-learning
 
-\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/metaoffline.png}}
+\centerline{\includegraphics[width=\paperwidth]{figures/metaoffline.png}}
 
 ## Meta-learning
 
-\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/metalearning.png}}
+\centerline{\includegraphics[width=\paperwidth]{figures/metalearning.png}}
 
 
 ## Feature-based forecasting algorithms
 
-\centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/metamodify.png}}
+\centerline{\includegraphics[width=\paperwidth]{figures/metahighlight.png}}
+
+\pause
+
+* three algorithms: \textcolor{blue}{FFORMS}, \textcolor{red}{FFORMA}, FFORMPP
 
 ## \fontsize{15}{15}\bf\sffamily FFORMS: Feature-based FORecast Model Selection
 

@@ -1,7 +1,7 @@
 ---
 title: Feature-based Time Series Forecasting
 author: Thiyanga S. Talagala
-date: \today
+date: "13 March 2019"
 toc: false
 output:
   binb::monash:

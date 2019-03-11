@@ -37,6 +37,23 @@ library(GGally) # to draw scatterplot matrix
 
 ## Joint work with
 
+\begin{textblock}{12.5}(0.2,1.2)
+\begin{block}{}\fontsize{9}{10}\sf
+\centering\begin{tabular}{c c}
+\includegraphics[height=3.4cm, width=5cm, keepaspectratio]{rob.jpg} &
+\includegraphics[height=3.4cm, width=5cm, keepaspectratio]{george.jpg}\\
+Rob J Hyndman & George Athanasopoulos
+\end{tabular}
+
+\centering\begin{tabular}{c c c}
+\includegraphics[height=3.4cm, width=5cm, keepaspectratio]{pablo.png} &
+\includegraphics[height=3.4cm, width=5cm, keepaspectratio]{feng.png} &
+\includegraphics[height=3.4cm, width=5cm, keepaspectratio]{yanfei.jpg}\\
+Pablo Montero-Manso & Feng Li & Yanfei Kang
+\end{tabular}
+\end{block}
+\end{textblock}
+
 ## Introduction
 
   \centerline{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{figures/mobile.jpg}}
@@ -391,7 +408,8 @@ weights.
 
 \centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformpp.png}}
 
-- use the minimum predicted MASE to select forecast method(s)
+\pause
+\fontsize{12}{12}\sffamily use the minimum predicted MASE to select forecast method(s)
 
 ## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
 
@@ -453,11 +471,15 @@ autoregressive(MAR) models
 ## Distribution of time series in the PCA space
 
 
-```{r pca}
+```{r pca, dev='png'}
 
 ```
 
 - black: observed, green-simulated, orange-M4
+
+## Results
+
+- 
 
 ## R packages
 

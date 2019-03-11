@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  11 MAR 2019 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  11 MAR 2019 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,7 +1711,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 File: figures/metaoffline.png Graphic file (type png)
 <use figures/metaoffline.png>
 Package pdftex.def Info: figures/metaoffline.png  used on input line 254.
-(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
+(pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
 [9
 
  <./figures/metaoffline.png>]
@@ -1719,20 +1719,26 @@ Package pdftex.def Info: figures/metaoffline.png  used on input line 254.
 File: figures/metalearning.png Graphic file (type png)
 <use figures/metalearning.png>
 Package pdftex.def Info: figures/metalearning.png  used on input line 260.
-(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
+(pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
 [10
 
- <./figures/metalearning.png>] [11
+ <./figures/metalearning.png>]
+<figures/metamodify.png, id=89, 1156.32pt x 650.43pt>
+File: figures/metamodify.png Graphic file (type png)
+<use figures/metamodify.png>
+Package pdftex.def Info: figures/metamodify.png  used on input line 266.
+(pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
+[11
 
-]
+ <./figures/metamodify.png>]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 15.0pt on input line 268.
+(Font)              scaled to size 15.0pt on input line 270.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <15> not available
 
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 268.
+ 270.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 15.0pt on input line 268.
+(Font)              scaled to size 15.0pt on input line 270.
 [12
 
 ] [13
@@ -1740,7 +1746,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
 ] [14
 
 ]
-Underfull \hbox (badness 2698) in paragraph at lines 280--280
+Underfull \hbox (badness 2698) in paragraph at lines 282--282
  [][]\T1/Carlito-TLF/b/n/17.28 Feature-based FORe-cast Model Per-for-mance 
  []
 
@@ -1760,19 +1766,19 @@ Underfull \hbox (badness 2698) in paragraph at lines 280--280
 \tf@snm=\write8
 \openout8 = `beijingtalk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
 (./beijingtalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `beijingtalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27513 strings out of 494562
- 529605 string characters out of 6175863
+ 27517 strings out of 494562
+ 529716 string characters out of 6175863
  601512 words of memory out of 5000000
- 30521 multiletter control sequences out of 15000+600000
+ 30525 multiletter control sequences out of 15000+600000
  143036 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,14n,92p,1838b,892s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1788,10 +1794,10 @@ typoland/carlito/Carlito.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-d
 ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on beijingtalk.pdf (17 pages, 300605 bytes).
+Output written on beijingtalk.pdf (17 pages, 355439 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 161 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
  35 named destinations out of 1000 (max. 500000)
- 10308 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10313 words of extra memory for PDF output out of 12000 (max. 10000000)
 

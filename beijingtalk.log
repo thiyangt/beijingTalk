@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 05:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 06:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2346,19 +2346,19 @@ Overfull \vbox (20.9828pt too high) detected at line 705
 [54
 
  <./beijingtalk_files/figure-beamer/pca-1.png (PNG copy)>]
-LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10> not available
-
+LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 734.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 734.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 734.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <8> not available
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 730.
+ 734.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 730.
+(Font)              scaled to size 8.0pt on input line 734.
 
-Overfull \hbox (14.32907pt too wide) in paragraph at lines 730--730
- [] 
- []
-
-
-Overfull \vbox (20.20415pt too high) detected at line 730
+Overfull \vbox (15.60411pt too high) detected at line 734
  []
 
 [55
@@ -2383,11 +2383,11 @@ Overfull \vbox (20.20415pt too high) detected at line 730
 Package caption Warning: Unused \captionsetup[figure] on input line 170.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 747.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 747.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
 (./beijingtalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 747.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 747.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
 Package rerunfilecheck Info: File `beijingtalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2395,11 +2395,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29763 strings out of 494562
- 571602 string characters out of 6175863
- 632115 words of memory out of 5000000
- 32561 multiletter control sequences out of 15000+600000
- 294890 words of font info for 165 fonts, out of 8000000 for 9000
+ 29781 strings out of 494562
+ 571891 string characters out of 6175863
+ 634115 words of memory out of 5000000
+ 32581 multiletter control sequences out of 15000+600000
+ 308318 words of font info for 171 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,15n,92p,1838b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
@@ -2415,10 +2415,10 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (58 pages, 7117365 bytes).
+Output written on beijingtalk.pdf (58 pages, 7118907 bytes).
 PDF statistics:
  537 PDF objects out of 1000 (max. 8388607)
  346 compressed objects within 4 object streams
  119 named destinations out of 1000 (max. 500000)
- 22862 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 20814 words of extra memory for PDF output out of 24883 (max. 10000000)
 

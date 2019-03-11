@@ -479,29 +479,36 @@ autoregressive(MAR) models
 
 - black: observed, green-simulated, orange-M4
 
-## Results: FFORMPP
+## Results: forecast accuracy based on MASE
 
 \begin{table}[!h]
-\centering\footnotesize\tabcolsep=0.12cm
-\begin{tabular}{l|llllll}
+\centering\scriptsize\tabcolsep=0.12cm
+\begin{tabular}{l|rrrrrr}
  & Yearly & Quarterly & Monthly & Weekly & Daily & Hourly \\\hline
-\bf{FFORMPP-combination*} &  &  &  &  &  &  \\
-\bf{FFORMPP-individual} &  &  &  &  &  &  \\
-auto.arima &  &  &  &  &  &  \\
-ets &  &  &  &  &  &  \\
-theta &  &  &  &  &  &  \\
-rwd &  &  &  &  &  &  \\
-rw &  &  &  &  &  &  \\
-stlar &  &  &  &  &  &  \\
-wn &  &  &  &  &  &  \\
-combination (median) &  &  &  &  &  & \\
-combination (mean) &  &  &  &  &  & \\\hline
+\bf{FFORMPP-combination*} & \bf{3.07} &  \bf{1.13}& \bf{0.89} & \bf{2.46} &  & \bf{0.96} \\
+\bf{FFORMPP-individual} & 3.37 &  1.17&  1.05&  2.53&  &  1.06\\
+auto.arima & 3.40 &1.17  &0.93  & 2.55 &  -& - \\
+ets & 3.44 &  1.16& 0.95 &  -&-  &  -\\
+theta & 3.37 &1.24  & 0.97 &2.64  &  & 1.59 \\
+rwd & 3.07 & 1.33 & 1.18  & 2.68  &  & 11.45 \\
+rw & 3.97 & 1.48 & 1.21  &2.78  &  & 11.60 \\
+stlar & - & 2.02 &  1.33& 3.15 &  & 1.49 \\
+snaive & - &  1.66& 1.26 &  2.78&  & 2.86 \\
+tbats & - & 1.19 &  1.05& 2.49 &  &  1.30\\
+wn & 13.42 &  6.50&  4.11&  49.91&  & 11.68 \\
+mstlarima & - & - &  - & - &  &  1.12\\
+mstlets & - &  - &  - &  - &  &  1.23\\
+combination (median) & 3.29 & 1.22 &  0.95& 2.57 &  & 1.33\\
+combination (mean) & 4.09 & 1.58 &  1.16&6.96  &  & 3.93 \\\hline
 \end{tabular}
 \end{table}
 
 \fontsize{12}{12}\sffamily FFORMPP-combination*: based on median forecasts of the four algorithms with minimum predicted MASE
 
 ## Results: FFORMS, FFORMA, FFORMPP
+
+
+
 
 ## R packages
 

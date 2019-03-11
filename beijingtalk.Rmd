@@ -22,6 +22,17 @@ knitr::opts_chunk$set(
 )
 set.seed(20191103)
 options(digits = 3, width = 63)
+library(knitr)
+read_chunk("src/main.R")
+read_chunk("src/corrplot.R")
+library(tidyverse)
+library(patchwork)
+library(png)
+library(tsfeatures)
+library(RColorBrewer)
+library(ggcorrplot) # to draw  ggcorrplot
+library(M4comp2018)
+library(GGally) # to draw scatterplot matrix
 ```
 
 ## Joint work with
@@ -380,6 +391,8 @@ weights.
 
 \centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformpp.png}}
 
+- use the minimum predicted MASE to select forecast method(s)
+
 ## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
 
 - We use Efficient Bayesian Multivariate Surface Regression
@@ -437,7 +450,14 @@ autoregressive(MAR) models
 
 - R package: https://github.com/ykang/tsgeneration
 
-## Results
+## Distribution of time series in the PCA space
+
+
+```{r pca}
+
+```
+
+- black: observed, green-simulated, orange-M4
 
 ## R packages
 

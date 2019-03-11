@@ -129,12 +129,14 @@ ggplot(df, aes(x = trend, y = seasonality)) +
 
 \centerline{\includegraphics[width=\paperwidth]{figures/metalearning.png}}
 
+## Feature-based forecasting algorithms
+
+\centerline{\includegraphics[width=\paperwidth]{figures/metahighlight.png}}
 
 ## Feature-based forecasting algorithms
 
 \centerline{\includegraphics[width=\paperwidth]{figures/metahighlight.png}}
 
-\pause
 
 * \fontsize{8}{8}{three algorithms: \textcolor{blue}{FFORMS}, \textcolor{red}{FFORMA}, FFORMPP}
 

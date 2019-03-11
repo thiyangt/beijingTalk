@@ -477,6 +477,13 @@ autoregressive(MAR) models
 
 ```
 
+## Distribution of time series in the PCA space
+
+
+```{r pca2, dev='png'}
+
+```
+
 - black: observed, green-simulated, orange-M4
 
 ## Results: forecast accuracy based on MASE

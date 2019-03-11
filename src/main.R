@@ -133,11 +133,11 @@ M4W_PCA <- pca_projection(pca_ref_calc_w$prcomp_out, features_M4W)
 ## draw PCA plot
 pca_all_weekly <- bind_rows(ref_pca_w, M4W_PCA,  .id="source")
 pcaW1 <- ggplot(pca_all_weekly, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Weekly: reference set")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+ggtitle("Weekly")+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 pcaW2 <- ggplot(pca_all_weekly, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Weekly M4 series (orange)")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 
 ## daily data
 load("data/daily/features_M4D.rda")
@@ -153,11 +153,11 @@ M4D_PCA <- pca_projection(pca_ref_calc_d$prcomp_out, features_M4D)
 ## draw PCA plot
 pca_all_daily <- bind_rows(ref_pca_d, M4D_PCA,  .id="source")
 pcaD1 <- ggplot(pca_all_daily, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Daily: reference set")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+ggtitle("Daily")+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 pcaD2 <- ggplot(pca_all_daily, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Daily M4 series (orange)")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 
 
 ## hourly data
@@ -174,11 +174,11 @@ M4H_PCA <- pca_projection(pca_ref_calc_h$prcomp_out, features_M4H)
 ## draw PCA plot
 pca_all_hourly <- bind_rows(ref_pca_h, M4H_PCA,  .id="source")
 pcaH1 <- ggplot(pca_all_hourly, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Hourly: reference set")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", NA))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+ggtitle("Hourly")+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 pcaH2 <- ggplot(pca_all_hourly, aes(x=PC1, y=PC2, color=source)) + geom_point(alpha=0.2)+ theme(legend.position="none")+
-  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=20), axis.title=element_text(size=20,face="bold"))+ggtitle("Hourly M4 series (orange)")+
-  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 20, face = "bold"))
+  scale_color_manual(values=c("forestgreen", "firebrick1"))+theme(aspect.ratio = 1, axis.text=element_text(size=8), axis.title=element_text(size=8,face="bold"))+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"), plot.title = element_text(hjust = 0.5, size = 8, face = "bold"))
 
 (pcaW1|pcaD1|pcaH1)/(pcaW2|pcaD2|pcaH2)
 

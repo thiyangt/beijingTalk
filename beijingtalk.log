@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 06:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 07:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1809,11 +1809,11 @@ File: george.jpg Graphic file (type jpg)
 <use george.jpg>
 Package pdftex.def Info: george.jpg  used on input line 239.
 (pdftex.def)             Requested size: 96.73322pt x 96.73322pt.
-<pablo.png, id=48, 860.21375pt x 1121.18875pt>
-File: pablo.png Graphic file (type png)
-<use pablo.png>
-Package pdftex.def Info: pablo.png  used on input line 239.
-(pdftex.def)             Requested size: 74.2132pt x 96.72829pt.
+<pablo.jpg, id=48, 301.125pt x 301.125pt>
+File: pablo.jpg Graphic file (type jpg)
+<use pablo.jpg>
+Package pdftex.def Info: pablo.jpg  used on input line 239.
+(pdftex.def)             Requested size: 96.73874pt x 96.73874pt.
 <feng.png, id=49, 401.5pt x 401.5pt>
 File: feng.png Graphic file (type png)
 <use feng.png>
@@ -1836,7 +1836,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 (Font)              scaled to size 4.0pt on input line 239.
 [2
 
- <./rob.jpg> <./george.jpg> <./pablo.png> <./feng.png (PNG copy)> <./yanfei.jpg
+ <./rob.jpg> <./george.jpg> <./pablo.jpg> <./feng.png (PNG copy)> <./yanfei.jpg
 >]
 <figures/mobile.jpg, id=56, 1927.2pt x 1362.08875pt>
 File: figures/mobile.jpg Graphic file (type jpg)
@@ -2415,7 +2415,7 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (58 pages, 7118907 bytes).
+Output written on beijingtalk.pdf (58 pages, 6025394 bytes).
 PDF statistics:
  537 PDF objects out of 1000 (max. 8388607)
  346 compressed objects within 4 object streams

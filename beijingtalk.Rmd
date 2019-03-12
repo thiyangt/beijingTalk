@@ -522,7 +522,7 @@ combination (mean) & 4.09 & 1.58 &  1.16&6.96  & 7.94 & 3.93 \\\hline
 \centering\footnotesize\tabcolsep=0.12cm
 \begin{tabular}{l|rrrrrr}
  & Yearly & Quarterly & Monthly & Weekly & Daily & Hourly \\\hline
-FFORMPP-combination* & 3.07 &  1.13& \bf{0.89} & 2.46 & 3.62 & 0.96 \\
+FFORMPP-combination & 3.07 &  1.13& \bf{0.89} & 2.46 & 3.62 & 0.96 \\
 FFORMA-combination & \bf{3.06} & \bf{1.11} & \bf{0.89} & \bf{2.10} & \bf{3.34} & \bf{0.81} \\
 FFORMPP-individual & 3.37 &  1.17&  1.05&  2.53& 4.26 &  1.06\\
 FFORMS-individual & 3.16 &  1.20&  0.98&  2.31& 3.56 &  9.33\\\hline

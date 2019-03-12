@@ -57,6 +57,7 @@ Pablo Montero-Manso & Feng Li & Yanfei Kang
 ## Introduction
 
   \centerline{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{figures/logistics.jpg}}
+  
 
 ## Time series features
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  13 MAR 2019 04:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1838,18 +1838,18 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 
  <./rob.jpg> <./george.jpg> <./pablo.jpg> <./feng.png (PNG copy)> <./yanfei.jpg
 >]
-<figures/mobile.jpg, id=56, 1927.2pt x 1362.08875pt>
-File: figures/mobile.jpg Graphic file (type jpg)
-<use figures/mobile.jpg>
-Package pdftex.def Info: figures/mobile.jpg  used on input line 245.
-(pdftex.def)             Requested size: 364.17215pt x 257.38626pt.
+<figures/logistics.jpg, id=56, 308.352pt x 205.4877pt>
+File: figures/logistics.jpg Graphic file (type jpg)
+<use figures/logistics.jpg>
+Package pdftex.def Info: figures/logistics.jpg  used on input line 245.
+(pdftex.def)             Requested size: 364.20038pt x 242.70538pt.
 
-Overfull \vbox (52.02983pt too high) detected at line 245
+Overfull \vbox (37.34895pt too high) detected at line 245
  []
 
 [3
 
- <./figures/mobile.jpg>]
+ <./figures/logistics.jpg>]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
 (Font)              scaled to size 13.0pt on input line 274.
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 274.
@@ -2451,8 +2451,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  29881 strings out of 494562
- 574492 string characters out of 6175863
- 635116 words of memory out of 5000000
+ 574504 string characters out of 6175863
+ 635115 words of memory out of 5000000
  32669 multiletter control sequences out of 15000+600000
  366647 words of font info for 199 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2470,7 +2470,7 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (60 pages, 6114573 bytes).
+Output written on beijingtalk.pdf (60 pages, 5334514 bytes).
 PDF statistics:
  557 PDF objects out of 1000 (max. 8388607)
  361 compressed objects within 4 object streams

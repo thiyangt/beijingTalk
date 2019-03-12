@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 07:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1849,53 +1849,51 @@ Overfull \vbox (52.02983pt too high) detected at line 245
 
 [3
 
- <./figures/mobile.jpg>] [4
-
-]
+ <./figures/mobile.jpg>]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 13.0pt on input line 278.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 278.
+(Font)              scaled to size 13.0pt on input line 274.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 274.
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 13.0pt on input line 278.
+(Font)              scaled to size 13.0pt on input line 274.
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 9.09996pt on input line 278.
+(Font)              scaled to size 9.09996pt on input line 274.
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 6.5pt on input line 278.
+(Font)              scaled to size 6.5pt on input line 274.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 278.
+(Font)              <13> on input line 274.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.09996> on input line 278.
+(Font)              <9.09996> on input line 274.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.5> on input line 278.
+(Font)              <6.5> on input line 274.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 9.09996pt on input line 278.
+(Font)              scaled to size 9.09996pt on input line 274.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 6.5pt on input line 278.
+(Font)              scaled to size 6.5pt on input line 274.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 13.0pt on input line 278.
+(Font)              scaled to size 13.0pt on input line 274.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 9.09996pt on input line 278.
+(Font)              scaled to size 9.09996pt on input line 274.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 6.5pt on input line 278.
-<beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf, id=67, 578.16pt x 722.7
+(Font)              scaled to size 6.5pt on input line 274.
+<beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf, id=62, 578.16pt x 722.7
 pt>
 File: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf Graphic file (type 
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf 
- used on input line 278.
+ used on input line 274.
 (pdftex.def)             Requested size: 148.46542pt x 185.58179pt.
-<beijingtalk_files/figure-beamer/fig2-1.pdf, id=68, 505.89pt x 490.83376pt>
+<beijingtalk_files/figure-beamer/fig2-1.pdf, id=63, 505.89pt x 490.83376pt>
 File: beijingtalk_files/figure-beamer/fig2-1.pdf Graphic file (type pdf)
 <use beijingtalk_files/figure-beamer/fig2-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/fig2-1.pdf  used on in
-put line 278.
+put line 274.
 (pdftex.def)             Requested size: 148.47205pt x 144.05324pt.
 
-Overfull \vbox (22.83707pt too high) detected at line 278
+Overfull \vbox (22.83707pt too high) detected at line 274
  []
 
-[5
+[4
 
  <./beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf> <./beijingtalk_files
 /figure-beamer/fig2-1.pdf>]
@@ -1903,335 +1901,337 @@ File: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf Graphic file (type
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf 
- used on input line 278.
+ used on input line 274.
 (pdftex.def)             Requested size: 148.46542pt x 185.58179pt.
 File: beijingtalk_files/figure-beamer/fig2-1.pdf Graphic file (type pdf)
 <use beijingtalk_files/figure-beamer/fig2-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/fig2-1.pdf  used on in
-put line 278.
+put line 274.
 (pdftex.def)             Requested size: 148.47205pt x 144.05324pt.
 
-Overfull \vbox (22.83707pt too high) detected at line 278
+Overfull \vbox (22.83707pt too high) detected at line 274
  []
 
-[6
+[5
 
 ]
 File: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf Graphic file (type 
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-1-1.pdf 
- used on input line 278.
+ used on input line 274.
 (pdftex.def)             Requested size: 148.46542pt x 185.58179pt.
 File: beijingtalk_files/figure-beamer/fig2-1.pdf Graphic file (type pdf)
 <use beijingtalk_files/figure-beamer/fig2-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/fig2-1.pdf  used on in
-put line 278.
+put line 274.
 (pdftex.def)             Requested size: 148.47205pt x 144.05324pt.
 
-Overfull \vbox (22.83707pt too high) detected at line 278
+Overfull \vbox (22.83707pt too high) detected at line 274
  []
 
-[7
+[6
 
 ]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 307.
-[8
+(Font)              scaled to size 12.0pt on input line 303.
+[7
 
 ]
-<figures/metaoffline.png, id=107, 1156.32pt x 650.43pt>
+<figures/metaoffline.png, id=102, 1156.32pt x 650.43pt>
 File: figures/metaoffline.png Graphic file (type png)
 <use figures/metaoffline.png>
-Package pdftex.def Info: figures/metaoffline.png  used on input line 313.
+Package pdftex.def Info: figures/metaoffline.png  used on input line 309.
+(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
+[8
+
+ <./figures/metaoffline.png>]
+<figures/metalearning.png, id=108, 1156.32pt x 650.43pt>
+File: figures/metalearning.png Graphic file (type png)
+<use figures/metalearning.png>
+Package pdftex.def Info: figures/metalearning.png  used on input line 315.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [9
 
- <./figures/metaoffline.png>]
-<figures/metalearning.png, id=113, 1156.32pt x 650.43pt>
-File: figures/metalearning.png Graphic file (type png)
-<use figures/metalearning.png>
-Package pdftex.def Info: figures/metalearning.png  used on input line 319.
-(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
-[10
-
  <./figures/metalearning.png>]
-<figures/metahighlight.png, id=119, 1156.32pt x 650.43pt>
+<figures/metahighlight.png, id=114, 1156.32pt x 650.43pt>
 File: figures/metahighlight.png Graphic file (type png)
 <use figures/metahighlight.png>
-Package pdftex.def Info: figures/metahighlight.png  used on input line 325.
+Package pdftex.def Info: figures/metahighlight.png  used on input line 321.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
-[11
+[10
 
  <./figures/metahighlight.png>]
 File: figures/metahighlight.png Graphic file (type png)
 <use figures/metahighlight.png>
-Package pdftex.def Info: figures/metahighlight.png  used on input line 337.
+Package pdftex.def Info: figures/metahighlight.png  used on input line 333.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 
-Overfull \vbox (17.4682pt too high) detected at line 337
+Overfull \vbox (17.4682pt too high) detected at line 333
  []
 
-[12
+[11
 
 ]
-<figures/fw1.png, id=130, 1156.32pt x 650.43pt>
+<figures/fw1.png, id=125, 1156.32pt x 650.43pt>
 File: figures/fw1.png Graphic file (type png)
 <use figures/fw1.png>
-Package pdftex.def Info: figures/fw1.png  used on input line 343.
+Package pdftex.def Info: figures/fw1.png  used on input line 339.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 15.0pt on input line 343.
+(Font)              scaled to size 15.0pt on input line 339.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <15> not available
 
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 343.
+ 339.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 15.0pt on input line 343.
-[13
+(Font)              scaled to size 15.0pt on input line 339.
+[12
 
  <./figures/fw1.png>]
-<figures/fw2.png, id=139, 1156.32pt x 650.43pt>
+<figures/fw2.png, id=133, 1156.32pt x 650.43pt>
 File: figures/fw2.png Graphic file (type png)
 <use figures/fw2.png>
-Package pdftex.def Info: figures/fw2.png  used on input line 349.
+Package pdftex.def Info: figures/fw2.png  used on input line 345.
+(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
+[13
+
+ <./figures/fw2.png>]
+<figures/fw3.png, id=141, 1156.32pt x 650.43pt>
+File: figures/fw3.png Graphic file (type png)
+<use figures/fw3.png>
+Package pdftex.def Info: figures/fw3.png  used on input line 351.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [14
 
- <./figures/fw2.png>]
-<figures/fw3.png, id=146, 1156.32pt x 650.43pt>
-File: figures/fw3.png Graphic file (type png)
-<use figures/fw3.png>
-Package pdftex.def Info: figures/fw3.png  used on input line 355.
+ <./figures/fw3.png>]
+<figures/fw4.png, id=148, 1156.32pt x 650.43pt>
+File: figures/fw4.png Graphic file (type png)
+<use figures/fw4.png>
+Package pdftex.def Info: figures/fw4.png  used on input line 357.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [15
 
- <./figures/fw3.png>]
-<figures/fw4.png, id=153, 1156.32pt x 650.43pt>
-File: figures/fw4.png Graphic file (type png)
-<use figures/fw4.png>
-Package pdftex.def Info: figures/fw4.png  used on input line 361.
+ <./figures/fw4.png>]
+<figures/fw5.png, id=155, 1156.32pt x 650.43pt>
+File: figures/fw5.png Graphic file (type png)
+<use figures/fw5.png>
+Package pdftex.def Info: figures/fw5.png  used on input line 363.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [16
 
- <./figures/fw4.png>]
-<figures/fw5.png, id=160, 1156.32pt x 650.43pt>
-File: figures/fw5.png Graphic file (type png)
-<use figures/fw5.png>
-Package pdftex.def Info: figures/fw5.png  used on input line 367.
+ <./figures/fw5.png>]
+<figures/fw6.png, id=162, 1156.32pt x 650.43pt>
+File: figures/fw6.png Graphic file (type png)
+<use figures/fw6.png>
+Package pdftex.def Info: figures/fw6.png  used on input line 369.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [17
 
- <./figures/fw5.png>]
-<figures/fw6.png, id=167, 1156.32pt x 650.43pt>
-File: figures/fw6.png Graphic file (type png)
-<use figures/fw6.png>
-Package pdftex.def Info: figures/fw6.png  used on input line 373.
+ <./figures/fw6.png>]
+<figures/fw7.png, id=169, 1156.32pt x 650.43pt>
+File: figures/fw7.png Graphic file (type png)
+<use figures/fw7.png>
+Package pdftex.def Info: figures/fw7.png  used on input line 375.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [18
 
- <./figures/fw6.png>]
-<figures/fw7.png, id=174, 1156.32pt x 650.43pt>
-File: figures/fw7.png Graphic file (type png)
-<use figures/fw7.png>
-Package pdftex.def Info: figures/fw7.png  used on input line 379.
+ <./figures/fw7.png>]
+<figures/fw8.png, id=176, 1156.32pt x 650.43pt>
+File: figures/fw8.png Graphic file (type png)
+<use figures/fw8.png>
+Package pdftex.def Info: figures/fw8.png  used on input line 381.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [19
 
- <./figures/fw7.png>]
-<figures/fw8.png, id=182, 1156.32pt x 650.43pt>
-File: figures/fw8.png Graphic file (type png)
-<use figures/fw8.png>
-Package pdftex.def Info: figures/fw8.png  used on input line 385.
+ <./figures/fw8.png>]
+<figures/fw9.png, id=184, 1156.32pt x 650.43pt>
+File: figures/fw9.png Graphic file (type png)
+<use figures/fw9.png>
+Package pdftex.def Info: figures/fw9.png  used on input line 387.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [20
 
- <./figures/fw8.png>]
-<figures/fw9.png, id=190, 1156.32pt x 650.43pt>
-File: figures/fw9.png Graphic file (type png)
-<use figures/fw9.png>
-Package pdftex.def Info: figures/fw9.png  used on input line 391.
+ <./figures/fw9.png>]
+<figures/fw10.png, id=192, 1156.32pt x 650.43pt>
+File: figures/fw10.png Graphic file (type png)
+<use figures/fw10.png>
+Package pdftex.def Info: figures/fw10.png  used on input line 393.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [21
 
- <./figures/fw9.png>]
-<figures/fw10.png, id=197, 1156.32pt x 650.43pt>
-File: figures/fw10.png Graphic file (type png)
-<use figures/fw10.png>
-Package pdftex.def Info: figures/fw10.png  used on input line 397.
+ <./figures/fw10.png>]
+<figures/fw11.png, id=199, 1156.32pt x 650.43pt>
+File: figures/fw11.png Graphic file (type png)
+<use figures/fw11.png>
+Package pdftex.def Info: figures/fw11.png  used on input line 399.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [22
 
- <./figures/fw10.png>]
-<figures/fw11.png, id=204, 1156.32pt x 650.43pt>
-File: figures/fw11.png Graphic file (type png)
-<use figures/fw11.png>
-Package pdftex.def Info: figures/fw11.png  used on input line 403.
+ <./figures/fw11.png>]
+<figures/fw12.png, id=206, 1156.32pt x 650.43pt>
+File: figures/fw12.png Graphic file (type png)
+<use figures/fw12.png>
+Package pdftex.def Info: figures/fw12.png  used on input line 405.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [23
 
- <./figures/fw11.png>]
-<figures/fw12.png, id=211, 1156.32pt x 650.43pt>
-File: figures/fw12.png Graphic file (type png)
-<use figures/fw12.png>
-Package pdftex.def Info: figures/fw12.png  used on input line 409.
+ <./figures/fw12.png>]
+<figures/fw13.png, id=213, 1156.32pt x 650.43pt>
+File: figures/fw13.png Graphic file (type png)
+<use figures/fw13.png>
+Package pdftex.def Info: figures/fw13.png  used on input line 411.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [24
 
- <./figures/fw12.png>]
-<figures/fw13.png, id=218, 1156.32pt x 650.43pt>
-File: figures/fw13.png Graphic file (type png)
-<use figures/fw13.png>
-Package pdftex.def Info: figures/fw13.png  used on input line 415.
+ <./figures/fw13.png>]
+<figures/fw14.png, id=220, 1156.32pt x 650.43pt>
+File: figures/fw14.png Graphic file (type png)
+<use figures/fw14.png>
+Package pdftex.def Info: figures/fw14.png  used on input line 417.
 (pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
 [25
 
- <./figures/fw13.png>]
-<figures/fw14.png, id=226, 1156.32pt x 650.43pt>
-File: figures/fw14.png Graphic file (type png)
-<use figures/fw14.png>
-Package pdftex.def Info: figures/fw14.png  used on input line 421.
-(pdftex.def)             Requested size: 346.31642pt x 194.80298pt.
-[26
-
- <./figures/fw14.png>] [27
+ <./figures/fw14.png>] [26
 
 ]
-<figures/observed.pdf, id=239, 794.97pt x 714.67pt>
+<figures/observed.pdf, id=234, 794.97pt x 714.67pt>
 File: figures/observed.pdf Graphic file (type pdf)
 <use figures/observed.pdf>
-Package pdftex.def Info: figures/observed.pdf  used on input line 458.
+Package pdftex.def Info: figures/observed.pdf  used on input line 454.
 (pdftex.def)             Requested size: 237.36473pt x 213.38849pt.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <12> not available
 
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 458.
+ 454.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 458.
+(Font)              scaled to size 12.0pt on input line 454.
 
-Overfull \vbox (35.68706pt too high) detected at line 458
+Overfull \vbox (35.68706pt too high) detected at line 454
+ []
+
+[27
+
+ <./figures/observed.pdf>]
+<figures/simulated.pdf, id=252, 794.97pt x 714.67pt>
+File: figures/simulated.pdf Graphic file (type pdf)
+<use figures/simulated.pdf>
+Package pdftex.def Info: figures/simulated.pdf  used on input line 462.
+(pdftex.def)             Requested size: 237.36473pt x 213.38849pt.
+
+Overfull \vbox (35.68706pt too high) detected at line 462
  []
 
 [28
 
- <./figures/observed.pdf>]
-<figures/simulated.pdf, id=257, 794.97pt x 714.67pt>
-File: figures/simulated.pdf Graphic file (type pdf)
-<use figures/simulated.pdf>
-Package pdftex.def Info: figures/simulated.pdf  used on input line 466.
+ <./figures/simulated.pdf>]
+<figures/exp1pca-1.pdf, id=270, 794.97pt x 714.67pt>
+File: figures/exp1pca-1.pdf Graphic file (type pdf)
+<use figures/exp1pca-1.pdf>
+Package pdftex.def Info: figures/exp1pca-1.pdf  used on input line 469.
 (pdftex.def)             Requested size: 237.36473pt x 213.38849pt.
 
-Overfull \vbox (35.68706pt too high) detected at line 466
+Overfull \vbox (35.68706pt too high) detected at line 469
  []
 
 [29
 
- <./figures/simulated.pdf>]
-<figures/exp1pca-1.pdf, id=275, 794.97pt x 714.67pt>
-File: figures/exp1pca-1.pdf Graphic file (type pdf)
-<use figures/exp1pca-1.pdf>
-Package pdftex.def Info: figures/exp1pca-1.pdf  used on input line 473.
+ <./figures/exp1pca-1.pdf>]
+<figures/exp2pca-1.pdf, id=288, 794.97pt x 714.67pt>
+File: figures/exp2pca-1.pdf Graphic file (type pdf)
+<use figures/exp2pca-1.pdf>
+Package pdftex.def Info: figures/exp2pca-1.pdf  used on input line 478.
 (pdftex.def)             Requested size: 237.36473pt x 213.38849pt.
 
-Overfull \vbox (35.68706pt too high) detected at line 473
+Overfull \vbox (35.68706pt too high) detected at line 478
  []
 
 [30
 
- <./figures/exp1pca-1.pdf>]
-<figures/exp2pca-1.pdf, id=293, 794.97pt x 714.67pt>
-File: figures/exp2pca-1.pdf Graphic file (type pdf)
-<use figures/exp2pca-1.pdf>
-Package pdftex.def Info: figures/exp2pca-1.pdf  used on input line 482.
-(pdftex.def)             Requested size: 237.36473pt x 213.38849pt.
-
-Overfull \vbox (35.68706pt too high) detected at line 482
- []
-
-[31
-
  <./figures/exp2pca-1.pdf>]
-<beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf, id=312, 578.16pt x 361.
+<beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf, id=306, 578.16pt x 361.
 35pt>
 File: beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf Graphic file (type 
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf 
- used on input line 488.
+ used on input line 484.
 (pdftex.def)             Requested size: 309.30814pt x 193.31758pt.
-[32
+[31
 
  <./beijingtalk_files/figure-beamer/unnamed-chunk-2-1.pdf>]
-<beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf, id=323, 578.16pt x 361.
+<beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf, id=318, 578.16pt x 361.
 35pt>
 File: beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf Graphic file (type 
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf 
- used on input line 494.
+ used on input line 490.
 (pdftex.def)             Requested size: 309.30814pt x 193.31758pt.
-[33
+[32
 
  <./beijingtalk_files/figure-beamer/unnamed-chunk-3-1.pdf>]
-<beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf, id=334, 578.16pt x 361.
+<beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf, id=329, 578.16pt x 361.
 35pt>
 File: beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (type 
 pdf)
 <use beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf 
- used on input line 500.
+ used on input line 496.
 (pdftex.def)             Requested size: 309.30814pt x 193.31758pt.
-[34
+[33
 
  <./beijingtalk_files/figure-beamer/unnamed-chunk-4-1.pdf>]
-<figures/m4.png, id=345, 722.7pt x 378.213pt>
+<figures/m4.png, id=340, 722.7pt x 378.213pt>
 File: figures/m4.png Graphic file (type png)
 <use figures/m4.png>
-Package pdftex.def Info: figures/m4.png  used on input line 512.
+Package pdftex.def Info: figures/m4.png  used on input line 508.
 (pdftex.def)             Requested size: 353.39828pt x 184.9451pt.
 
-Overfull \vbox (26.99821pt too high) detected at line 512
+Overfull \vbox (26.99821pt too high) detected at line 508
  []
 
-[35
+[34
 
  <./figures/m4.png>]
-<figures/fforms.png, id=351, 1156.32pt x 650.43pt>
+<figures/fforms.png, id=346, 1156.32pt x 650.43pt>
 File: figures/fforms.png Graphic file (type png)
 <use figures/fforms.png>
-Package pdftex.def Info: figures/fforms.png  used on input line 518.
+Package pdftex.def Info: figures/fforms.png  used on input line 514.
 (pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
-[36
+[35
 
  <./figures/fforms.png>]
-<figures/fformstofforma.png, id=357, 1156.32pt x 650.43pt>
+<figures/fformstofforma.png, id=352, 1156.32pt x 650.43pt>
 File: figures/fformstofforma.png Graphic file (type png)
 <use figures/fformstofforma.png>
-Package pdftex.def Info: figures/fformstofforma.png  used on input line 530.
+Package pdftex.def Info: figures/fformstofforma.png  used on input line 526.
 (pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
 
-Overfull \vbox (27.35997pt too high) detected at line 530
+Overfull \vbox (27.35997pt too high) detected at line 526
+ []
+
+[36
+
+ <./figures/fformstofforma.png>]
+<figures/fforma.png, id=358, 1156.32pt x 650.43pt>
+File: figures/fforma.png Graphic file (type png)
+<use figures/fforma.png>
+Package pdftex.def Info: figures/fforma.png  used on input line 538.
+(pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
+
+Overfull \vbox (27.35997pt too high) detected at line 538
  []
 
 [37
 
- <./figures/fformstofforma.png>]
-<figures/fforma.png, id=364, 1156.32pt x 650.43pt>
-File: figures/fforma.png Graphic file (type png)
-<use figures/fforma.png>
-Package pdftex.def Info: figures/fforma.png  used on input line 542.
-(pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
-
-Overfull \vbox (27.35997pt too high) detected at line 542
+ <./figures/fforma.png>]
+Overfull \vbox (14.79753pt too high) detected at line 565
  []
 
 [38
 
- <./figures/fforma.png>]
-Overfull \vbox (14.79753pt too high) detected at line 569
- []
-
-[39
+] [39
 
 ] [40
 
@@ -2243,131 +2243,147 @@ Overfull \vbox (14.79753pt too high) detected at line 569
 
 ] [44
 
-] [45
-
 ]
-<figures/fformpp.png, id=407, 1156.32pt x 650.43pt>
+<figures/fformpp.png, id=402, 1156.32pt x 650.43pt>
 File: figures/fformpp.png Graphic file (type png)
 <use figures/fformpp.png>
-Package pdftex.def Info: figures/fformpp.png  used on input line 602.
+Package pdftex.def Info: figures/fformpp.png  used on input line 603.
 (pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 603.
 
-Overfull \vbox (20.22505pt too high) detected at line 602
+Overfull \vbox (18.60426pt too high) detected at line 603
  []
 
-[46
+[45
 
  <./figures/fformpp.png>]
 File: figures/fformpp.png Graphic file (type png)
 <use figures/fformpp.png>
-Package pdftex.def Info: figures/fformpp.png  used on input line 602.
+Package pdftex.def Info: figures/fformpp.png  used on input line 603.
 (pdftex.def)             Requested size: 364.1898pt x 204.85675pt.
 
-Overfull \vbox (20.22505pt too high) detected at line 602
+Overfull \vbox (18.60426pt too high) detected at line 603
+ []
+
+[46
+
+]
+Overfull \vbox (18.91722pt too high) detected at line 627
  []
 
 [47
 
 ]
-Overfull \vbox (18.91722pt too high) detected at line 626
+Overfull \vbox (18.91722pt too high) detected at line 627
  []
 
 [48
 
 ]
-Overfull \vbox (18.91722pt too high) detected at line 626
+Overfull \vbox (18.91722pt too high) detected at line 627
  []
 
 [49
 
 ]
-Overfull \vbox (18.91722pt too high) detected at line 626
- []
-
-[50
-
-]
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 652.
+(Font)              scaled to size 14.4pt on input line 653.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Carlito-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 652.
+(Font)              scaled to size 10.0pt on input line 653.
 LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 652.
+(Font)              scaled to size 7.0pt on input line 653.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 652.
+(Font)              <14.4> on input line 653.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 652.
+(Font)              <10> on input line 653.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 652.
+(Font)              <7> on input line 653.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 652.
-LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 652.
+(Font)              scaled to size 7.0pt on input line 653.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 652.
+(Font)              scaled to size 14.4pt on input line 653.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 652.
+(Font)              scaled to size 10.0pt on input line 653.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 652.
+(Font)              scaled to size 7.0pt on input line 653.
 
-Overfull \vbox (12.0475pt too high) detected at line 652
+Overfull \vbox (12.0475pt too high) detected at line 653
  []
 
-[51
+[50
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{observedsamp
 le}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 \end{frame}
+l.679 \end{frame}
                  
-Overfull \vbox (12.0475pt too high) detected at line 678
+Overfull \vbox (12.0475pt too high) detected at line 679
  []
 
-[52
+[51
 
-] [53
+] [52
 
 ]
-<beijingtalk_files/figure-beamer/pca-1.png, id=452, 578.16pt x 361.35pt>
+<beijingtalk_files/figure-beamer/pca-1.png, id=447, 578.16pt x 361.35pt>
 File: beijingtalk_files/figure-beamer/pca-1.png Graphic file (type png)
 <use beijingtalk_files/figure-beamer/pca-1.png>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/pca-1.png  used on inp
-ut line 699.
+ut line 706.
 (pdftex.def)             Requested size: 309.30814pt x 193.31758pt.
-[54
+
+Overfull \vbox (20.9828pt too high) detected at line 706
+ []
+
+[53
 
  <./beijingtalk_files/figure-beamer/pca-1.png (PNG copy)>]
-<beijingtalk_files/figure-beamer/pca2-1.png, id=458, 578.16pt x 361.35pt>
+<beijingtalk_files/figure-beamer/pca2-1.png, id=453, 578.16pt x 361.35pt>
 File: beijingtalk_files/figure-beamer/pca2-1.png Graphic file (type png)
 <use beijingtalk_files/figure-beamer/pca2-1.png>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/pca2-1.png  used on in
-put line 711.
+put line 718.
 (pdftex.def)             Requested size: 309.30814pt x 193.31758pt.
 
-Overfull \vbox (20.9828pt too high) detected at line 711
+Overfull \vbox (20.9828pt too high) detected at line 718
+ []
+
+[54
+
+ <./beijingtalk_files/figure-beamer/pca2-1.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 748.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 748.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 748.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <8> not available
+(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
+ 748.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 748.
+
+Overfull \vbox (26.52904pt too high) detected at line 748
  []
 
 [55
 
- <./beijingtalk_files/figure-beamer/pca2-1.png (PNG copy)>]
-LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 740.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 740.
-LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 740.
-LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 740.
-LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 740.
+]
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10> not available
 
-Overfull \vbox (15.60411pt too high) detected at line 740
+(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
+ 774.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 774.
+
+Overfull \hbox (12.13708pt too wide) in paragraph at lines 774--774
+ [] 
  []
 
 [56
@@ -2377,6 +2393,36 @@ Overfull \vbox (15.60411pt too high) detected at line 740
 ] [58
 
 ] [59
+
+]
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 14.0pt on input line 813.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <14> not available
+
+(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
+ 813.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
+(Font)              scaled to size 14.0pt on input line 813.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 813.
+LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 14.0pt on input line 813.
+LaTeX Font Info:    Font shape `OT1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 813.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14> on input line 813.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.79996> on input line 813.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 813.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
+(Font)              scaled to size 14.0pt on input line 813.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
+(Font)              scaled to size 9.79996pt on input line 813.
+
+Overfull \vbox (6.0045pt too high) detected at line 813
+ []
+
+[60
 
 ]
 \tf@nav=\write6
@@ -2392,11 +2438,11 @@ Overfull \vbox (15.60411pt too high) detected at line 740
 Package caption Warning: Unused \captionsetup[figure] on input line 170.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 818.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 818.
 (./beijingtalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 818.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 818.
 Package rerunfilecheck Info: File `beijingtalk.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2404,11 +2450,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29789 strings out of 494562
- 572119 string characters out of 6175863
- 633115 words of memory out of 5000000
- 32587 multiletter control sequences out of 15000+600000
- 308318 words of font info for 171 fonts, out of 8000000 for 9000
+ 29881 strings out of 494562
+ 574492 string characters out of 6175863
+ 635116 words of memory out of 5000000
+ 32669 multiletter control sequences out of 15000+600000
+ 366647 words of font info for 199 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,15n,92p,1838b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Thiyanga/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
@@ -2424,10 +2470,10 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (59 pages, 6109127 bytes).
+Output written on beijingtalk.pdf (60 pages, 6114445 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 121 named destinations out of 1000 (max. 500000)
- 20819 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 22879 words of extra memory for PDF output out of 24883 (max. 10000000)
 

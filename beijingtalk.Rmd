@@ -58,8 +58,6 @@ Pablo Montero-Manso & Feng Li & Yanfei Kang
 
   \centerline{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{figures/mobile.jpg}}
 
-## Big picture of the problem
-
 ## Time series features
 
 \fontsize{13}{14}\sf
@@ -411,7 +409,8 @@ weights.
 \centerline{\includegraphics[width=\paperwidth, height=\paperheight]{figures/fformpp.png}}
 
 \pause
-\fontsize{12}{12}\sffamily use the minimum predicted MASE to select forecast method(s)
+
+- \fontsize{10}{10}\sffamily use the minimum predicted MASE to select forecast method(s)
 
 ## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
 
@@ -476,6 +475,8 @@ autoregressive(MAR) models
 ```{r pca, dev='png'}
 
 ```
+
+- black: observed, green-simulated, orange-M4
 
 ## Distribution of time series in the PCA space
 

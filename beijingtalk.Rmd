@@ -463,9 +463,9 @@ weights.
 ## Simulated data
 
 - Augmenting the observed sample with simulated time series from mixture
-autoregressive(MAR) models
+autoregressive (MAR) models
 
-- Proposed by Kang, Hyndman and Li (2018), Efficient generation of time series with diverse and controllable chaacteristics
+- Proposed by Kang, Hyndman and Li (2018), Efficient generation of time series with diverse and controllable characteristics
 
 - R package: https://github.com/ykang/tsgeneration
 

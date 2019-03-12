@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  12 MAR 2019 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2419,7 +2419,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
 (Font)              scaled to size 9.79996pt on input line 813.
 
-Overfull \vbox (6.0045pt too high) detected at line 813
+Overfull \vbox (5.96321pt too high) detected at line 813
  []
 
 [60
@@ -2470,10 +2470,10 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (60 pages, 6114445 bytes).
+Output written on beijingtalk.pdf (60 pages, 6114599 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
+ 557 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
  123 named destinations out of 1000 (max. 500000)
  22879 words of extra memory for PDF output out of 24883 (max. 10000000)
 

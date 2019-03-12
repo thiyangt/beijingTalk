@@ -493,21 +493,22 @@ autoregressive(MAR) models
 \centering\scriptsize\tabcolsep=0.12cm
 \begin{tabular}{l|rrrrrr}
  & Yearly & Quarterly & Monthly & Weekly & Daily & Hourly \\\hline
-\bf{FFORMPP-combination*} & \bf{3.07} &  \bf{1.13}& \bf{0.89} & \bf{2.46} &  & \bf{0.96} \\
-\bf{FFORMPP-individual} & 3.37 &  1.17&  1.05&  2.53&  &  1.06\\
+\bf{FFORMPP-combination*} & \bf{3.07} &  \bf{1.13}& \bf{0.89} & \bf{2.46} & 3.62 & \bf{0.96} \\
+\bf{FFORMPP-individual} & 3.37 &  1.17&  1.05&  2.53& 4.26 &  1.06\\
 auto.arima & 3.40 &1.17  &0.93  & 2.55 &  -& - \\
 ets & 3.44 &  1.16& 0.95 &  -&-  &  -\\
-theta & 3.37 &1.24  & 0.97 &2.64  &  & 1.59 \\
-rwd & \bf{3.07} & 1.33 & 1.18  & 2.68  &  & 11.45 \\
-rw & 3.97 & 1.48 & 1.21  &2.78  &  & 11.60 \\
-stlar & - & 2.02 &  1.33& 3.15 &  & 1.49 \\
-snaive & - &  1.66& 1.26 &  2.78&  & 2.86 \\
-tbats & - & 1.19 &  1.05& 2.49 &  &  1.30\\
-wn & 13.42 &  6.50&  4.11&  49.91&  & 11.68 \\
-mstlarima & - & - &  - & - &  &  1.12\\
-mstlets & - &  - &  - &  - &  &  1.23\\
-combination (median) & 3.29 & 1.22 &  0.95& 2.57 &  & 1.33\\
-combination (mean) & 4.09 & 1.58 &  1.16&6.96  &  & 3.93 \\\hline
+theta & 3.37 &1.24  & 0.97 &2.64  & 3.33 & 1.59 \\
+rwd & \bf{3.07} & 1.33 & 1.18  & 2.68  & 3.25 & 11.45 \\
+rw & 3.97 & 1.48 & 1.21  &2.78  & \bf{3.27} & 11.60 \\
+nn & 4.06 & 1.55 &  1.14 &4.04 & 3.90 & 1.09 \\
+stlar & - & 2.02 &  1.33& 3.15 & 4.49 & 1.49 \\
+snaive & - &  1.66& 1.26 &  2.78& 24.46 & 2.86 \\
+tbats & - & 1.19 &  1.05& 2.49 & \bf{3.27} &  1.30\\
+wn & 13.42 &  6.50&  4.11&  49.91& 38.07 & 11.68 \\
+mstlarima & - & - &  - & - & 3.84 &  1.12\\
+mstlets & - &  - &  - &  - & 3.73 &  1.23\\
+combination (median) & 3.29 & 1.22 &  0.95& 2.57 & 3.52 & 1.33\\
+combination (mean) & 4.09 & 1.58 &  1.16&6.96  & 7.94 & 3.93 \\\hline
 \end{tabular}
 \end{table}
 
@@ -515,11 +516,56 @@ combination (mean) & 4.09 & 1.58 &  1.16&6.96  &  & 3.93 \\\hline
 
 ## Results: FFORMS, FFORMA, FFORMPP
 
+- forecast accuracy based on MASE
+
+\begin{table}[!h]
+\centering\footnotesize\tabcolsep=0.12cm
+\begin{tabular}{l|rrrrrr}
+ & Yearly & Quarterly & Monthly & Weekly & Daily & Hourly \\\hline
+FFORMPP-combination* & 3.07 &  1.13& \bf{0.89} & 2.46 & 3.62 & 0.96 \\
+FFORMA-combination & \bf{3.06} & \bf{1.11} & \bf{0.89} & \bf{2.10} & \bf{3.34} & \bf{0.81} \\
+FFORMPP-individual & 3.37 &  1.17&  1.05&  2.53& 4.26 &  1.06\\
+FFORMS-individual & 3.16 &  1.20&  0.98&  2.31& 3.56 &  9.33\\\hline
+\end{tabular}
+\end{table}
 
 
 
-## R packages
+\begin{block}{Algorithm complexity and time to calculate forecasts}
+  \centering
+FFORMS < FFORMPP < FFORMA
+\end{block}
 
-## References
+## Discussion and Conclusions
 
+\begin{itemize}[<+->]
 
+\vfill\item Three feature-based algorithms for large scale forecasting.
+
+\vfill\item Each of these algorithms uses a meta-learning approach to guide the way the forecasts are computed.
+
+\vfill\item Future directions: 
+ 
+ - Combination of FFORMS, FFORMA, FFORMPP
+ 
+ - Density forecast
+
+\end{itemize}
+
+## R packages and papers
+
+\fontsize{14}{17}\sf
+
+\begin{block}{R packages}
+\begin{itemize}\tightlist
+ \item \alert{seer}: FFORMS \newline\url{github.com/thiyangt/seer}
+ \item \alert{M4metalearning}: FFORMA. \newline\url{github.com/robjhyndman/M4metalearning}
+ \item \alert{fformpp}: FFORMPP \newline\url{github.com/thiyangt/fformpp}
+\end{itemize}
+\end{block}
+
+\begin{alertblock}{Papers}
+Available from \bf{robjhyndman.com}
+\end{alertblock}
+
+email: thiyanga.talagala@monash.edu

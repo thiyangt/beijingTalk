@@ -485,7 +485,7 @@ autoregressive (MAR) models
 
 ```
 
-- black: observed, green-simulated, orange-M4
+- green-simulated, orange-M4
 
 ## Results: forecast accuracy based on MASE
 

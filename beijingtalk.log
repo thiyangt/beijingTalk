@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  13 MAR 2019 09:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.10)  13 MAR 2019 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2244,10 +2244,10 @@ Overfull \vbox (14.79753pt too high) detected at line 565
 ] [44
 
 ]
-<beijingtalk_files/figure-beamer/corY-1.pdf, id=402, 578.16pt x 578.16pt>
-File: beijingtalk_files/figure-beamer/corY-1.pdf Graphic file (type pdf)
-<use beijingtalk_files/figure-beamer/corY-1.pdf>
-Package pdftex.def Info: beijingtalk_files/figure-beamer/corY-1.pdf  used on in
+<beijingtalk_files/figure-beamer/corY-1.png, id=402, 578.16pt x 578.16pt>
+File: beijingtalk_files/figure-beamer/corY-1.png Graphic file (type png)
+<use beijingtalk_files/figure-beamer/corY-1.png>
+Package pdftex.def Info: beijingtalk_files/figure-beamer/corY-1.png  used on in
 put line 595.
 (pdftex.def)             Requested size: 194.80739pt x 194.80739pt.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10> not available
@@ -2256,14 +2256,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10> not available
  595.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 595.
-
-Overfull \vbox (4.45096pt too high) detected at line 595
- []
-
 [45
 
- <./beijingtalk_files/figure-beamer/corY-1.pdf>]
-<figures/fformpp.png, id=414, 1156.32pt x 650.43pt>
+ <./beijingtalk_files/figure-beamer/corY-1.png (PNG copy)>]
+<figures/fformpp.png, id=408, 1156.32pt x 650.43pt>
 File: figures/fformpp.png Graphic file (type png)
 <use figures/fformpp.png>
 Package pdftex.def Info: figures/fformpp.png  used on input line 610.
@@ -2350,7 +2346,7 @@ Overfull \vbox (12.0475pt too high) detected at line 686
 ] [53
 
 ]
-<beijingtalk_files/figure-beamer/pca-1.png, id=459, 578.16pt x 361.35pt>
+<beijingtalk_files/figure-beamer/pca-1.png, id=453, 578.16pt x 361.35pt>
 File: beijingtalk_files/figure-beamer/pca-1.png Graphic file (type png)
 <use beijingtalk_files/figure-beamer/pca-1.png>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/pca-1.png  used on inp
@@ -2363,7 +2359,7 @@ Overfull \vbox (20.9828pt too high) detected at line 713
 [54
 
  <./beijingtalk_files/figure-beamer/pca-1.png (PNG copy)>]
-<beijingtalk_files/figure-beamer/pca2-1.png, id=465, 578.16pt x 361.35pt>
+<beijingtalk_files/figure-beamer/pca2-1.png, id=459, 578.16pt x 361.35pt>
 File: beijingtalk_files/figure-beamer/pca2-1.png Graphic file (type png)
 <use beijingtalk_files/figure-beamer/pca2-1.png>
 Package pdftex.def Info: beijingtalk_files/figure-beamer/pca2-1.png  used on in
@@ -2463,7 +2459,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  29889 strings out of 494562
- 574756 string characters out of 6175863
+ 574732 string characters out of 6175863
  635116 words of memory out of 5000000
  32675 multiletter control sequences out of 15000+600000
  366647 words of font info for 199 fonts, out of 8000000 for 9000
@@ -2482,10 +2478,10 @@ ist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Thiyanga/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Thiyanga/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/Users/Thiyanga/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on beijingtalk.pdf (61 pages, 6447283 bytes).
+Output written on beijingtalk.pdf (61 pages, 5364777 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
+ 564 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
  125 named destinations out of 1000 (max. 500000)
  22884 words of extra memory for PDF output out of 24883 (max. 10000000)
 

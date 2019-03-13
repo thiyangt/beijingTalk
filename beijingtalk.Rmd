@@ -407,7 +407,7 @@ weights.
 
 ## \fontsize{10}{10}\sffamily Yearly: Correlation between MASE values across different forecast algorithms
 
-```{r corY,fig.height=8, fig.width=8, fig.align="center"}
+```{r corY,fig.height=8, fig.width=8, fig.align="center", dev='png'}
 ```
 
 ## \fontsize{12}{12}\bf\sffamily FFORMPP: Feature-based FORecast Model Performance Prediction
